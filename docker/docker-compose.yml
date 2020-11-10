@@ -1,0 +1,17 @@
+version: '3.7'
+    
+services:
+  redirect:
+    image: homeassistant/amd64-hassio-audio:17
+    ports:
+        - 8123:8123
+    volumes:
+        - ./data/config:/config
+    environment: 
+        - TZ=Europe/Berlin
+    restart: always
+    # network_mode: host
+
+# homeassistant/amd64-hassio-audio:17
+# homeassistant/amd64-hassio-dns:2020.10.0
+# homeassistant/amd64-hassio-supervisor

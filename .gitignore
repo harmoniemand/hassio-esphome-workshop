@@ -1,0 +1,35 @@
+# Gitignore settings for ESPHome
+# This is an example and may include too much for your use-case.
+# You can modify this file to suit your needs.
+/.esphome/
+**/.pioenvs/
+**/.piolibdeps/
+**/lib/
+**/src/
+**/platformio.ini
+/secrets.yaml
+arduino/02_dos-esp-read-sensor/.vscode/extensions.json
+arduino/03_dos-esp-website/.vscode/extensions.json
+arduino/03_dos-esp-website/.vscode/settings.json
+arduino/01_blink/.vscode/extensions.json
+docker/data/config/.HA_VERSION
+docker/data/config/automations.yaml
+docker/data/config/configuration.yaml
+docker/data/config/groups.yaml
+docker/data/config/home-assistant_v2.db
+docker/data/config/home-assistant.log
+docker/data/config/scenes.yaml
+docker/data/config/scripts.yaml
+docker/data/config/secrets.yaml
+docker/data/config/.storage/auth
+docker/data/config/.storage/auth_provider.homeassistant
+docker/data/config/.storage/core.area_registry
+docker/data/config/.storage/core.config
+docker/data/config/.storage/core.config_entries
+docker/data/config/.storage/core.entity_registry
+docker/data/config/.storage/core.restore_state
+docker/data/config/.storage/core.uuid
+docker/data/config/.storage/frontend.user_data_a4cd364c57804429b6dd1aa04726128c
+docker/data/config/.storage/http
+docker/data/config/.storage/onboarding
+docker/data/config/.storage/person
