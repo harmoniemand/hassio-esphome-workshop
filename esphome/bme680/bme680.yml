@@ -71,7 +71,7 @@ sensor:
   - platform: custom
     lambda: |-
       auto IAQSensor = new CE_BSEC();
-      IAQSensor->Intervall = 10000;
+      IAQSensor->Intervall = 60000;
       App.register_component(IAQSensor);
       return {
         IAQSensor->RawTemperatureSensor,
