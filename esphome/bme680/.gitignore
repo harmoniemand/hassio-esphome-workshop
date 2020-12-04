@@ -8,4 +8,4 @@
 **/src/
 **/platformio.ini
 /secrets.yaml
-/makerspace_digitalwerkstatt_bme680
+/makerspace_*

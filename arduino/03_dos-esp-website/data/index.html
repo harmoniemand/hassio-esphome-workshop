@@ -1,1 +1,21 @@
-hallo welt
+<div>
+    <span>Temperatur:</span>
+    <span id="temp">0.0°C</span>
+</div>
+
+
+<script>
+    function loadData() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("temp").innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "/temperature", true);
+        xhttp.send();
+    }
+
+    setInterval(loadData, 2000);
+
+</script>
