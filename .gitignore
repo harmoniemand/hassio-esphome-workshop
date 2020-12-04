@@ -5,7 +5,6 @@
 **/.pioenvs/
 **/.piolibdeps/
 **/lib/
-**/src/
 **/platformio.ini
 /secrets.yaml
 arduino/02_dos-esp-read-sensor/.vscode/extensions.json
